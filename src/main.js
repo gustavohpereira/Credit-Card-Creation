@@ -104,7 +104,7 @@ document.querySelector('form').addEventListener('submit',(event) =>{
 const CardHolder = document.querySelector('#card-holder')
 CardHolder.addEventListener('input', () =>{
     const ccHolder = document.querySelector('.cc-holder .value')
-    ccHolder.innerText = CardHolder.value.length === 0 ? "Fulano da silva" : CardHolder.value
+    ccHolder.innerText = CardHolder.value.length === 0 ? "TALES DE MILETO" : CardHolder.value
 
 })
 
