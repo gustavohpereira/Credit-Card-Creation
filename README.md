@@ -6,3 +6,9 @@ The purppose of this page is JavaScript DOM manipulation practice, and use of Im
 
 "https://credit-card-creation.vercel.app/"
 
+
+
+<p align="center">
+  <img alt="rocketpay" src=".github/creditCardPicture.png" width="100%">
+</p>
+
