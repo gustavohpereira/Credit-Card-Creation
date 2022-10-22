@@ -16,7 +16,7 @@ function setCardType(type){
     const colors = {
         'visa': [ "#436D99", "#2D57F2"] , 
         'mastercard' : ["#DF6F29","#C69347"],
-        'Default': ["black","gray"],
+        'default': ["black","gray"],
 
     }
     
@@ -71,7 +71,7 @@ const cardNumberPattern = {
         },
         {
             mask: "0000 0000 0000 0000", 
-            cardtype: 'Default'
+            cardtype: 'default'
         }
     ],
  dispatch: function(appended, dynamicMasked){
@@ -98,7 +98,7 @@ addButton.addEventListener('click',() => {
 
 })
 document.querySelector('form').addEventListener('submit',(event) =>{
-    event.preventDefault()
+    event.preventdefault()
 })
 
 const CardHolder = document.querySelector('#card-holder')
