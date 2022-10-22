@@ -15,7 +15,7 @@ const ccBgColor02 = document.querySelector('.cc-bg svg > g g:nth-child(2) path')
 function setCardType(type){
     const colors = {
         'visa': [ "#436D99", "#2D57F2"] , 
-        'Mastercard' : ["#DF6F29","#C69347"],
+        'mastercard' : ["#DF6F29","#C69347"],
         'Default': ["black","gray"],
 
     }
@@ -67,7 +67,7 @@ const cardNumberPattern = {
         {
             mask: "0000 0000 0000 0000", 
             regex:/(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,2}/,
-            cardtype: 'Mastercard'
+            cardtype: 'mastercard'
         },
         {
             mask: "0000 0000 0000 0000", 
